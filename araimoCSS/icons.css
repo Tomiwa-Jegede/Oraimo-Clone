@@ -1,0 +1,14 @@
+.icons {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 45px;
+  flex-shrink: 0;
+}
+/*---------------------------------------------------*/
+.search,
+.cart,
+.user,
+.category {
+  height: 20px;
+}

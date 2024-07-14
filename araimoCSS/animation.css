@@ -1,0 +1,51 @@
+.nos1,
+.nos2,
+.nos3,
+.nos4 {
+  transition: color, 0.15s;
+}
+
+.nos-container:hover .upside-down-arrow {
+  transform: rotate(180deg) scaleX(2);
+  color: white;
+}
+
+.top-navbar:hover .text-navbar {
+  animation-play-state: paused;
+}
+
+.products:hover ul {
+  height: 560px;
+  opacity: 100%;
+}
+
+.support:hover ul {
+  height: 300px;
+  opacity: 100%;
+}
+.Hot:hover ul {
+  height: 125px;
+  opacity: 100%;
+}
+
+.products:hover,
+.Hot:hover,
+.deals:hover,
+.support:hover,
+.products li:hover,
+.products h1:hover,
+.Hot li:hover,
+.nos1:hover,
+.support li:hover,
+.nos-container:hover {
+  color: #82e600;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(1400px);
+  }
+  100% {
+    transform: translateX(-600px);
+  }
+}
